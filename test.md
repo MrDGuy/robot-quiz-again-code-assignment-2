@@ -69,8 +69,6 @@ Be sure to share your code by clicking the share icon and sharing the link to Go
 }
 ```
 ```customts
-tiles.loadMap(tiles.createMap(tilemap`level1`))
-robot.beginScreen()
 game.onUpdate(function () {
     if (robot.goalReached()) {
         music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)

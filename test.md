@@ -48,7 +48,7 @@ Use the commands and conditions in the robot category.
   else:
     pass
 
-  tiles.load_map(tiles.create_map(tilemap("""level1""")))
+  tiles.load_map(tiles.create_map(tilemap(""" """)))
 ```
 
 ## Share your work to Google Classroom  
